@@ -7,7 +7,7 @@ curl_setopt($cv, CURLOPT_RETURNTRANSFER, 1);
  $js_array=json_decode($output, true);
 
  $notifyURL = "https://notify-api.line.me/api/notify";
- $accToken = "xh1EjQw8A4E77Bu8Onc3xXtfxiYXhFSKofGz7LBDr62";
+ $accToken = "m4AfT4lYxaknKA6C8qH7JI4rPM7ZVc9uvBs7VTljp6x";
 $headers = array(
  'Content-Type: application/x-www-form-urlencoded',
  'Authorization: Bearer '.$accToken
